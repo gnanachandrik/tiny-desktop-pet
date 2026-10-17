@@ -1,0 +1,8 @@
+{
+  "name": "tiny-desktop-companion",
+  "version": "1.0.0",
+  "description": "A tiny animated desktop pet for Windows and macOS",
+  "main": "main.js",
+  "scripts": { "start": "electron .", "check": "node --check main.js && node --check preload.js && node --check renderer/pet.js && node --check renderer/summon.js && node --check renderer/settings.js && node --check renderer/chat.js" },
+  "devDependencies": { "electron": "^35.0.0" }
+}
